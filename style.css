@@ -1,4 +1,4 @@
-/* Reset default margins and set base font */
+
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +7,6 @@ body {
   color: #333;
 }
 
-/* Header Section */
 .start {
   display: flex;
   justify-content: space-between;
@@ -16,10 +15,9 @@ body {
   border-bottom: 1px solid #e0e0e0;
 }
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #0a74da;
+.logo img {
+  height: 30px; 
+  width: auto;
 }
 
 .nav-links {
@@ -39,7 +37,6 @@ body {
   color: #0a74da;
 }
 
-/* Hero Section */
 .hero {
   display: flex;
   flex-direction: column;
@@ -83,7 +80,7 @@ body {
 }
 
 
-/* Trust Section with short class names */
+
 .a {
   display: flex;
   flex-wrap: wrap;
@@ -136,4 +133,4 @@ body {
 }
 
 
-}
+
