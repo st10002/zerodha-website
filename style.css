@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -72,14 +71,11 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  ;
 }
 
 .cta-btn:hover {
   background-color: #0051cc;
 }
-
-
 
 .a {
   display: flex;
@@ -132,5 +128,14 @@ body {
   color: #004bbd;
 }
 
+.s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 
-
+.s img {
+  max-width: 100%;
+  height: auto;
+}
