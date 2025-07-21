@@ -6,7 +6,6 @@ body {
   color: #333;
 }
 
-/* Header Section */
 .start {
   display: flex;
   justify-content: space-between;
@@ -36,7 +35,6 @@ body {
   color: #0a74da;
 }
 
-/* Hero Section */
 .hero {
   display: flex;
   flex-direction: column;
@@ -78,7 +76,6 @@ body {
   background-color: #0051cc;
 }
 
-/* Info Section */
 .a {
   display: flex;
   justify-content: space-between;
@@ -116,7 +113,6 @@ body {
   font-weight: 500;
 }
 
-/* Link Section */
 .c a {
   margin-right: 20px;
   color: #0070f3;
@@ -124,7 +120,6 @@ body {
   font-weight: 500;
 }
 
-/* Image Center */
 .d {
   display: flex;
   justify-content: center;
@@ -138,7 +133,6 @@ body {
   margin-bottom: 5px;
 }
 
-/* Flex Info Blocks */
 .one {
   display: flex;
   justify-content: space-between;
@@ -168,7 +162,6 @@ body {
   font-weight: bold;
 }
 
-/* Center Section */
 .three {
   display: flex;
   align-items: center;
@@ -193,7 +186,6 @@ body {
   height: auto;
 }
 
-/* Extra Content Layout */
 .twentyone {
   padding-top: 30px;
   text-align: center;
@@ -263,7 +255,6 @@ body {
   cursor: pointer;
 }
 
-/* CTA Button Section */
 .cta button {
   background-color: #006aff;
   color: #fff;
@@ -275,47 +266,74 @@ body {
   margin-bottom: 20px;
 }
 
-/* Footer Section */
 .footer {
-  background-color: #fafafa;
-  padding: 20px 40px; /* 👈 Same as .start */
-  border-top: 1px solid #eee;
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  color: #333;
 }
 
 .footer-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 30px;
+  flex-wrap: wrap;
+  gap: 60px;
 }
 
 .footer-left {
-  flex: 1 1 220px;
-  min-width: 200px;
+  flex: 1 1 250px;
 }
 
-.footer-left .logo {
+.footer-logo {
   width: 130px;
   margin-bottom: 15px;
 }
 
 .footer-left p {
-  font-size: 14px;
+  font-size: 13px;
   color: #555;
+  line-height: 1.6;
   margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-row {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  color: #444;
+}
+
+.social-icons hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+  width: 160px;
 }
 
 .footer-links {
   display: flex;
+  gap: 60px;
   flex: 3 1 600px;
   flex-wrap: wrap;
-  gap: 40px;
+}
+
+.footer-column {
+  min-width: 180px;
 }
 
 .footer-column h4 {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #222;
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #111;
 }
 
 .footer-column ul {
@@ -325,12 +343,13 @@ body {
 }
 
 .footer-column ul li {
-  font-size: 14px;
-  margin-bottom: 6px;
-  color: #333;
+  margin-bottom: 8px;
+  color: #444;
   cursor: pointer;
+  transition: color 0.2s ease;
 }
 
 .footer-column ul li:hover {
+  color: #007aff;
   text-decoration: underline;
 }
